@@ -1,0 +1,50 @@
+.table-contratos {
+  background: #fff !important;
+  margin-top: 30px;
+
+  .title-table {
+    margin: 0 !important;
+    padding: 15px;
+    font-size: 1.3rem;
+    color: $color-3;
+  }
+
+  .table {
+    margin-top: 0;
+    border: 0;
+
+    & >:not(:first-child){
+      border-top: 3px solid #f0f2f5;
+    }
+
+    thead,
+    th {
+      border: 0 !important;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    th {
+      padding: 10px 0 10px 10px;
+      color: #7b809a;
+      font-size: 0.75rem;
+    }
+
+    tbody {
+      td {
+        color: $color-3;
+      }
+      .n-contrato {
+        width: 90px !important;
+        max-width: 90px !important;
+        text-align: center !important;
+      }
+      .cliente {
+        font-weight: 600;
+      }
+    }
+  }
+
+  @include box-shadow(1px 1px 5px 1px rgba(0, 0, 0, 0.1));
+  @include border-radius(12px);
+}

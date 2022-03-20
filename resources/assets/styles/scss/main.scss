@@ -1,0 +1,36 @@
+/* Globals */
+@import "common/_variables.scss";
+@import "common/_global.scss";
+
+/* Components */
+@import "components/_loading.scss";
+@import "components/_alerts.scss";
+@import "components/_contrato.scss";
+
+/* Layouts */
+@import "layouts/_header";
+@import "layouts/_sidebar";
+@import "layouts/_footer";
+@import "layouts/_tinymce";
+@import "layouts/_card_number";
+@import "layouts/_table_contratos";
+@import "layouts/_signature_pad";
+@import "layouts/_profile";
+
+/* Pages */
+
+
+body {
+  background: #f0f2f5 !important;
+  overflow-x: hidden;
+}
+
+.wrap {
+  padding: 25px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+

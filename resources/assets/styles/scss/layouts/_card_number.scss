@@ -1,0 +1,58 @@
+.row-card-number {
+  .card-number {
+    padding: 10px 25px 15px 25px;
+    text-align: right;
+    position: relative;
+
+    .icon-card {
+      width: 60px;
+      height: 60px;
+      border: 0 none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -15px;
+      left: 15px;
+
+      i {
+        font-size: 1.2rem;
+        color: #fff;
+      }
+
+      img {
+        max-width: 70%;
+      }
+
+      @include box-shadow(2px 2px 10px 2px rgba(0, 0, 0, 0.1));
+      @include border-radius(8px);
+    }
+
+    .card-title {
+      color: #6e86a2;
+      margin: 0;
+    }
+
+    .card-total-number {
+      color: #344767;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    hr {
+      margin-top: 5px;
+    }
+
+    .lasteds {
+      font-size: 0.9rem;
+      color: #6e86a2;
+
+      b {
+        color: #57e060;
+      }
+    }
+
+    @include box-shadow(1px 1px 5px 1px rgba(0, 0, 0, 0.1));
+    @include border-radius(12px);
+  }
+}

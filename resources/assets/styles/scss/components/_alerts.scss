@@ -1,0 +1,36 @@
+.alerts {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 15px;
+  z-index: 999;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  max-width: 350px;
+  animation: bounceInRight;
+  animation-duration: 0.5s;
+
+  &.success {
+    background: #00b74a;
+    border-bottom: 4px solid #007933;
+    font-size: 1.2rem !important;
+  }
+
+  &.error {
+    background: #ef4141;
+    border-bottom: 4px solid #bf2c2c;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  @include border-radius(6px);
+}

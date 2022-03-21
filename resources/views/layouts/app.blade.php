@@ -1,7 +1,3 @@
-@php
-  \App\Controllers\RedirectLogin::run()
-@endphp
-
 <!doctype html>
 <html {!! get_language_attributes() !!}>
   @include('partials.head')

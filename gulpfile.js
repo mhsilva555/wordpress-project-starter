@@ -39,7 +39,7 @@ gulp.task('devWatch', function() {
       './resources/assets/styles/scss/**/*.scss',
       './resources/assets/scripts/*.js'
     ],
-    proxy: "http://localhost/online-tecnologia/"
+    proxy: ""
   });
 
   watch('./resources/assets/styles/scss/**/*.scss', gulp.series('bundleSass'));

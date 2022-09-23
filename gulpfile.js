@@ -28,7 +28,7 @@ gulp.task('bundleJs', () => {
     .pipe(browserSync.stream())
 });
 
-gulp.task('devWatch', function() {
+gulp.task('dev', function() {
 
   browserSync.init({
     host: 'localhost',
@@ -47,4 +47,4 @@ gulp.task('devWatch', function() {
 });
 
 exports.bundleSass = 'bundleSass';
-exports.default = series('devWatch');
+exports.default = series('dev');

@@ -14,12 +14,8 @@ date_default_timezone_set('America/Sao_Paulo');
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', false, null);
-    wp_enqueue_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css', false, null);
-    wp_enqueue_style('bootstrap', INCLUDE_URI.'/assets/styles/bootstrap.min.css', false, null, 'all');
     wp_enqueue_style('main.css', INCLUDE_URI.'/assets/build/main.min.css', false, filemtime(INCLUDE_PATH.'/assets/build/main.min.css'), 'all');
 
-    wp_enqueue_script('bootstrap', INCLUDE_URI.'/assets/scripts/bootstrap.min.js', [], null, true);
     wp_enqueue_script('main.js', INCLUDE_URI.'/assets/build/app.min.js', ['jquery'], filemtime(INCLUDE_PATH.'/assets/build/app.min.js'), true);
 
     wp_localize_script('main.js', 'wp', array(
@@ -153,5 +149,3 @@ add_action('after_setup_theme', function () {
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
-
-show_admin_bar(false);

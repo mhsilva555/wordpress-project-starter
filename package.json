@@ -1,9 +1,7 @@
 {
-  "name": "online-tecnologia",
-  "version": "1.0.0",
-  "description": "Sistema Desenvolvido para a Online Tecnologia",
+  "name": "sage",
+  "private": true,
   "main": "gulpfile.js",
-  "author": "Marcos Henrique",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^4.0.2",

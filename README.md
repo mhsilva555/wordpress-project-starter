@@ -33,3 +33,21 @@ Repository for initial project with Wordpress and MVC using Sage Framework
 <p align="center">
   <a href="https://roots.io/"><strong><code>Website</code></strong></a> &nbsp;&nbsp; <a href="https://docs.roots.io/sage/10.x/installation/"><strong><code>Documentation</code></strong></a> &nbsp;&nbsp; <a href="https://github.com/roots/sage/releases"><strong><code>Releases</code></strong></a> &nbsp;&nbsp; <a href="https://discourse.roots.io/"><strong><code>Support</code></strong></a>
 </p>
+
+## Features
+
+- Harness the power of [Laravel](https://laravel.com) and its available packages thanks to [Acorn](https://github.com/roots/acorn).
+- Clean, efficient theme templating utilizing [Laravel Blade](https://laravel.com/docs/master/blade).
+- Lightning fast frontend development workflow powered by [Bud](https://bud.js.org/).
+- Out of the box support for [Tailwind CSS](https://tailwindcss.com/).
+
+## Requirements
+
+Make sure all dependencies have been installed before moving on:
+
+- [Acorn](https://docs.roots.io/acorn/2.x/installation/) v2
+- [WordPress](https://wordpress.org/) >= 5.9
+- [PHP](https://secure.php.net/manual/en/install.php) >= 7.4.0 (with [`php-mbstring`](https://secure.php.net/manual/en/book.mbstring.php) enabled)
+- [Composer](https://getcomposer.org/download/)
+- [Node.js](http://nodejs.org/) >= 16
+- [Yarn](https://yarnpkg.com/en/docs/install)

@@ -1,5 +1,5 @@
 # Wordpress Project MVC Starter
-Repository for initial project with Wordpress and MVC
+Repository for initial project with Wordpress and MVC using Sage Framework
 
 
 <p align="center">

@@ -4,7 +4,6 @@
   "description": "Sistema Desenvolvido para a Online Tecnologia",
   "main": "gulpfile.js",
   "author": "Marcos Henrique",
-  "license": "MIT",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^4.0.2",

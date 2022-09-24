@@ -3,19 +3,15 @@
   @include('partials.head')
   <body @php body_class() @endphp>
 
-    @php do_action('get_header') @endphp
+    @include('partials.header')
 
-    <div class="wrap" role="document">
-      <div class="content container-fluid">
-        <main class="main">
-          
-            @yield('content')
+      <div class="main">
+        
+          @yield('content')
 
-        </main>
       </div>
-    </div>
-
-    @php do_action('get_footer') @endphp
+      
+    @include('partials.footer')
     @php wp_footer() @endphp
 
   </body>
